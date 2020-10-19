@@ -32,6 +32,7 @@ namespace ECommerce.Api.Products.Tests
 
             Assert.True(product.IsSuccess);
             Assert.True(product.products.Any());
+
             Assert.Null(product.ErrorMessage);
         }
 
